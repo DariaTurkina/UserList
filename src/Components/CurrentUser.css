@@ -1,0 +1,16 @@
+.CurrentUser{
+
+    align-items: center;
+}
+
+.personalInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 110%;
+}
+
+.friends{
+    line-height: 40px;
+}
