@@ -1,0 +1,31 @@
+.Users{
+    width: 50vw;
+}
+
+.itemlist{
+    font-size: 110%;
+    color: black;
+    width: 50vw;
+    margin: auto;
+}
+
+.userInList{
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.userInList:hover, .userInList:active{
+    text-decoration: black;
+}
+
+.MuiChip-root{
+    background-color: transparent !important;
+}
+
+.MuiIconButton-root{
+    padding: 0 !important;
+}
+
+.MuiTablePagination-root:last-child{
+    border-left: none !important;
+}

@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: rgb(241, 245, 255);
+  color: black;
+  min-height: 100vh;
+}
+
+.App-header {
+  font-size: 200%;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.addingBut, .loader{
+  margin: 40px auto;
+}
+
+.cancelBut{
+  margin: 15px auto 15px 15px;
+}
+
+.addingItem{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.MuiFormControl-root{
+  margin: 30px auto !important;
+}

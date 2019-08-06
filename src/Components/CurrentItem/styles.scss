@@ -1,0 +1,61 @@
+.currentitem{
+    align-items: center;
+}
+
+.arraylist{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.personalInfo{
+    justify-content: center;
+    width: 50%;
+    margin: 15px auto;
+    font-size: 110%;
+}
+
+.friends{
+    width: 50%;
+    margin: auto;
+}
+
+.MuiTable-root{
+    width: 100%;
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid white;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.listOfArrays {
+    h3 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+        &::before {
+            content: "";
+            position: absolute;
+            margin: 18px;
+            left: 37%;
+            right: 37%;
+            height: 8px;
+            border-top: 2px solid rgb(90, 90, 90);
+            border-bottom: 2px solid rgb(90, 90, 90);
+            z-index: 1;
+        }
+    }
+    span {
+        background: transparent;
+        padding: 0 15px;
+        font-size: 200%;
+        background-color: white;
+        position: relative;
+        z-index: 10 !important;
+    }
+}
