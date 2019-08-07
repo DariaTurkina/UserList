@@ -1,0 +1,25 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "quotes": ["error", "double"],
+        "max-len": ["error", 180],
+        "react/prop-types": ["off"]
+    }
+}
